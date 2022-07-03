@@ -29,7 +29,7 @@ class LinkedList {
       this.head = newNode;
       this.tail = this.head;
     } else {
-      this.tail.new = new Node;
+      this.tail.next = new Node;
       this.tail = newNode;
     }
     this.length += 1;
